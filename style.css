@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+	box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Press Start 2P";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  position: fixed;
+  bottom: 0;
+  height: 2rem;
+  padding: 0 2rem;
+  background: none;
+  color: #FFF;
+  border: none;
+}
+
+#saveBtn {
+  right: 0;
+}
+
+#refreshBtn {
+  left: 0;
+}
